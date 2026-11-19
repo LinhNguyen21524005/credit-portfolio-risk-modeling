@@ -1,0 +1,40 @@
+
+# Raw datasets
+dataset/
+data/
+raw/
+
+# Processed large datasets
+processed/
+*.parquet
+*.csv
+*.txt
+*.zip
+*.7z
+
+# Python cache
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Jupyter temporary files
+*.tmp
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
